@@ -1,1 +1,8 @@
 .env
+
+# Terraform-specific files and directories
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+terraform.tfplan
+.terraform.lock.hcl
